@@ -77,14 +77,14 @@ body {
    ============================================ */
 .main-container {
     display: flex;
-    flex: 1;              /* Chiếm toàn bộ không gian còn lại */
+    flex: 1;
 }
 
 /* ============================================
    CONTENT - Nội dung chính
    ============================================ */
 .content {
-    flex: 3;              /* Chiếm 3 phần */
+    flex: 3;
     background-color: #fff;
     padding: 30px;
     overflow-y: auto;
@@ -116,7 +116,7 @@ body {
    SIDEBAR - Nội dung phụ
    ============================================ */
 .sidebar {
-    flex: 1;              /* Chiếm 1 phần */
+    flex: 1;
     background-color: #f4f4f4;
     padding: 20px;
     border-left: 1px solid #ddd;
@@ -186,6 +186,20 @@ body {
     text-align: center;
     padding: 20px;
     font-size: 14px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer a {
+    color: #4fc3f7;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
 
 /* ============================================
