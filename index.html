@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flexbox Layout</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- ============================================
+                 HEADER - Tiêu đề trang
+                 ============================================ -->
+            <header class="header">
+                <h1>Header</h1>
+                <p>Flexbox Layout Responsive</p>
+            </header>
+
+            <!-- ============================================
+                 NAVIGATION - Menu điều hướng
+                 ============================================ -->
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Dịch vụ</a></li>
+                    <li><a href="#">Sản phẩm</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </nav>
+
+            <!-- ============================================
+                 MAIN + SIDEBAR
+                 ============================================ -->
+            <div class="main-container">
+                <!-- Nội dung chính -->
+                <main class="content">
+                    <h2>Main Content</h2>
+                    <p>
+                        Đây là phần nội dung chính của trang web. Sử dụng CSS
+                        Flexbox để tạo bố cục gồm 5 phần: Header, Navigation,
+                        Main Content, Sidebar và Footer.
+                    </p>
+                    <p>
+                        Khi thu nhỏ cửa sổ xuống dưới <b>768px</b>, Sidebar sẽ
+                        tự động chuyển xuống dưới Main Content để hiển thị tốt
+                        hơn trên thiết bị di động.
+                    </p>
+                    <p>
+                        Flexbox cho phép chúng ta dễ dàng kiểm soát bố cục với
+                        các thuộc tính như <code>flex-direction</code>,
+                        <code>flex-grow</code>, <code>flex-basis</code>,
+                        <code>justify-content</code>, và <code>align-items</code>.
+                    </p>
+                </main>
+
+                <!-- Sidebar -->
+                <aside class="sidebar">
+                    <h2>Sidebar</h2>
+
+                    <div class="widget">
+                        <h3>Tin tức mới</h3>
+                        <ul>
+                            <li><a href="#">HTML5 ra mắt phiên bản mới</a></li>
+                            <li><a href="#">CSS Flexbox được hỗ trợ rộng rãi</a></li>
+                            <li><a href="#">JavaScript ES2024 có gì mới?</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="widget">
+                        <h3>Quảng cáo</h3>
+                        <p>Vùng hiển thị quảng cáo hoặc banner.</p>
+                    </div>
+
+                    <div class="widget">
+                        <h3>Liên kết hữu ích</h3>
+                        <ul>
+                            <li><a href="#">Tài liệu HTML</a></li>
+                            <li><a href="#">Tài liệu CSS</a></li>
+                            <li><a href="#">Diễn đàn lập trình</a></li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+
+            <!-- ============================================
+                 FOOTER - Chân trang
+                 ============================================ -->
+            <footer class="footer">
+                <p>&copy; 2024 - Trang Web Của Tôi | Thiết kế bởi Nguyễn Văn A</p>
+            </footer>
+        </div>
+    </body>
+</html>
