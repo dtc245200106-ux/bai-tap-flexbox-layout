@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Flexbox Layout</title>
+        <title>Flexbox Layout Responsive</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -12,8 +12,8 @@
                  HEADER - Tiêu đề trang
                  ============================================ -->
             <header class="header">
-                <h1>Header</h1>
-                <p>Flexbox Layout Responsive</p>
+                <h1>Trang Web Của Tôi</h1>
+                <p>Bố cục Responsive với CSS Flexbox</p>
             </header>
 
             <!-- ============================================
@@ -35,22 +35,27 @@
             <div class="main-container">
                 <!-- Nội dung chính -->
                 <main class="content">
-                    <h2>Main Content</h2>
+                    <h2>Nội dung chính</h2>
                     <p>
-                        Đây là phần nội dung chính của trang web. Sử dụng CSS
-                        Flexbox để tạo bố cục gồm 5 phần: Header, Navigation,
+                        Đây là phần nội dung chính của trang web. Bố cục được xây
+                        dựng bằng CSS Flexbox với 5 phần: Header, Navigation,
                         Main Content, Sidebar và Footer.
                     </p>
                     <p>
-                        Khi thu nhỏ cửa sổ xuống dưới <b>768px</b>, Sidebar sẽ
-                        tự động chuyển xuống dưới Main Content để hiển thị tốt
-                        hơn trên thiết bị di động.
+                        Khi thu nhỏ cửa sổ xuống dưới <b>768px</b>, bố cục sẽ tự
+                        động chuyển sang dạng dọc để hiển thị tốt hơn trên thiết
+                        bị di động.
                     </p>
                     <p>
-                        Flexbox cho phép chúng ta dễ dàng kiểm soát bố cục với
-                        các thuộc tính như <code>flex-direction</code>,
+                        Flexbox cho phép chúng ta dễ dàng kiểm soát bố cục với các
+                        thuộc tính như <code>flex-direction</code>,
                         <code>flex-grow</code>, <code>flex-basis</code>,
                         <code>justify-content</code>, và <code>align-items</code>.
+                    </p>
+                    <p>
+                        Với <code>flex: 3</code> cho Content và <code>flex: 1</code>
+                        cho Sidebar, chúng ta có tỷ lệ 3:1 — Content chiếm 75%,
+                        Sidebar chiếm 25% chiều rộng.
                     </p>
                 </main>
 
@@ -88,6 +93,11 @@
                  ============================================ -->
             <footer class="footer">
                 <p>&copy; 2024 - Trang Web Của Tôi | Thiết kế bởi Nguyễn Văn A</p>
+                <p>
+                    <a href="#">Chính sách bảo mật</a> |
+                    <a href="#">Điều khoản sử dụng</a> |
+                    <a href="#">Liên hệ</a>
+                </p>
             </footer>
         </div>
     </body>
